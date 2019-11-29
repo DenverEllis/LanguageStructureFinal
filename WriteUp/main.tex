@@ -1,0 +1,56 @@
+\documentclass[a4paper]{article} 
+\input{style/head.tex}
+
+%-------------------------------
+%	TITLE VARIABLES
+%-------------------------------
+\newcommand{\yourname}{Denver Ellis} % replace YOURNAME with your name
+\newcommand{\yournetid}{T00591699} % replace YOURNETID with your NetID
+\newcommand{\youremail}{dsellis@ualr.edu} % replace YOUREMAIL with your email
+\newcommand{\assignmentnumber}{1} % replace X with assignment number
+
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION 
+%-------------------------------
+\input{style/header.tex}
+
+%-------------------------------
+%	ASSIGNMENT CONTENT
+%-------------------------------
+Write a program in three different languages that will generate a PPM\cite{DUMMY1} image gradient. Your program set should represent at least two different programming paradigms (i.e. imperative vs procedural) and should demonstrate how iteration and subprograms (i.e. loops and functions) work in the respective languages. Pertaining to the image gradient, the gradient should be mapped to the two axis of the image and the program should be dynamic enough to handle each permutation of the three color channels (i.e. $R$ x $G$ and $R$ x $B$, note there should be six combinations.) After writing the programs, describe your observations differing the different paradigms used.
+\vspace{5mm}
+
+At the top level of the file structure, please include a README telling which languages you used and their paradigm as well as any additional useful information.
+
+\section*{For each language:}
+\subsection*{Task 1}
+Make a subprogram that outputs an PPM image gradient with the Red and Green color channels.\\
+\textbf{Hint:} use iteration (loops or recursion) 
+
+\subsection*{Task 2}
+Repeat task one for each permutation of the color channels:
+\begin{itemize}
+    \item Red and Green
+    \item Red and Blue
+    \item Blue and Green
+    \item Green and Red
+    \item Blue and Red
+    \item Green and Blue
+\end{itemize}
+\textbf{Note:} Each of these should be their own subprogram/function
+
+\subsection*{Task 3}
+Test each of the programs for each permutation. Include the output files for your submission. There should be six images per language in your submission. Please label each image appropriately
+
+\subsection*{Task 4}
+Assignment write-up. Describe your process for each language. Determine whether or not each language was well suited for the task with respect to the requirements and tell why (such as side effects, iteration, ease for file output.) Note that unfamiliarity with a language is not a reason for for the language to be unfit for the task. Be sure that your write-up is submitted in a platform agnostic format (such as .pdf)
+
+
+
+%------------------------------------------------
+\bibliographystyle{acm}
+\bibliography{references}
+
+\end{document}

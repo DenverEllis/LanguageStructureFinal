@@ -1,0 +1,50 @@
+* Code Skeletons
+** Python
+#+BEGIN_SRC python
+#PPM Header
+width  = 256
+height = 256
+maxval = 255
+header = 'P3\n' + str(width) + ' ' + str(height) + '\n' + str(maxval) + '\n'
+
+# Data Array
+img = []
+
+#generation function for red and green:
+def generatePPMRG():
+
+#generation function for red and blue:
+def generatePPMRB():
+
+#generation function for green and blue:
+def generatePPMGB():
+
+#generation function for green and red:
+def generatePPMGR():
+
+#generation function for blue and red:
+def generatePPMBR():
+
+#generation function for blue and green:
+def generatePPMBG():
+
+
+#write image to file. Make this a function later
+with open("out.ppm", 'w') as f:
+    f.write(header)
+    for x in range(0,len(img)):
+        r,g,b = img[x]
+        f.write(str(r) + ' ' + str(g) + ' ' + str(b) + '\n')
+
+#+END_SRC
+
+** Java
+
+
+** Lisp
+
+
+** Haskell
+
+
+** C++

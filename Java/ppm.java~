@@ -1,0 +1,50 @@
+//imports
+import java.io.*;
+
+//init vars
+int width = 256;
+int height = 256;
+int maxval = 255;
+
+//init java array of pixels representing image
+
+String header = "P3\n" + (int)width + " " + (int)height + "\n" + (int)maxval;
+
+//generation function for red and green:
+void generatePPMRG() {
+    for(int i = 0; i <= height; ++i) {
+	for(int j = 0; j <= width; ++j) {
+
+	}
+    }
+}
+
+//generation function for red and blue:
+void generatePPMRB() {
+
+}
+
+//generation function for green and blue:
+void generatePPMGB() {
+
+}
+
+//generation function for green and red:
+void generatePPMGR() {
+
+}
+
+//generation function for blue and red:
+void generatePPMBR() {
+
+}
+
+//generation function for blue and green:
+void generatePPMBG() {
+
+}
+
+
+public static void main(String[] args) {
+
+}
